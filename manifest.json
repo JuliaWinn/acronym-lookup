@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Government Acronym Dictionary",
+  "description": "Helps you quickly check what an acronym might stand for.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images.png",
+    "default_popup": "popup.html",
+    "default_title": "Search"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
